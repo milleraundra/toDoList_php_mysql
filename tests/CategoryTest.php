@@ -125,11 +125,13 @@
             $test_category_id = $test_category->getId();
 
             $description = "Email client";
-            $test_task = new Task($description, $id, $test_category_id);
+            $due_date = "2016-2-24";
+            $test_task = new Task($description, $test_category_id, $due_date, $id);
             $test_task->save();
 
             $description2 = "Meet with boss";
-            $test_task2 = new Task($description2, $id, $test_category_id);
+            $due_date2 = "2019-9-04";
+            $test_task2 = new Task($description2, $test_category_id, $due_date2, $id);
             $test_task2->save();
 
             //Act
