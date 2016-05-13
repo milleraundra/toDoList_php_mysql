@@ -1,41 +1,40 @@
-# _{Application Name}_
+#To Do List
 
-#### _{Brief description of application}, {Date of current version}_
+####By Aundra Miller
 
-#### By _**{List of contributors}**_
+##Description
+This applciation was developed as a school project to train us to write PHP code using technologies like MySQL, Silex, Twig, and PHPUnit.
 
-## Description
+**This project may be incomplete. Its sole purpose was to be a class exercise.**
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+##Setup / Installation Requirements
+To work properly, this application requires:
+* Composer
+* MAMP (or an alternative - used for local server and MySQL database)
 
-## Setup/Installation Requirements
+Setup Instructions:
 
-* _Clone the Repository_
-* _in your terminal, run  "composer install"   to get silex and twig_
-* _start your php sever in the "web" folder_
-* _x _
-* _x _
+1. Clone this repository to your local computer.
+2. Navigate to the root directory.
+3. Run `composer install` in the terminal to collect dependencies.
+4. Start MySQL server:
+  1. Run `mysql.server start`.
+  2. Run `apachectl start`.
+5. If a database exists, import it:
+  1. Navigate to `localhost:8080/phpmyadmin` and login to your MySQL admin.
+  2. Select the Import tab and choose the .sql file in the project directory.
+  3. Select `Go`.
+6. Start the PHP server
+  1. In the terminal, navigate the `web` folder.
+  2. Run `php -S localhost:8000`
+  3. Open `localhost:8000` in a browser.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+**Notice: The port numbers may be different on your computer.**
 
-## Known Bugs
+##Support and Contact
+If you have questions, contact me at miller.aundra@gmail.com
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+##License
+The MIT License (MIT)
 
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-## Technologies Used
-
-_
-* _Composer_
-* _Twig_
-* _Silex_
-* _PHP_
-
-### License
-
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2016 Aundra Miller
